@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "How to make the Matpatify Extension",
+    "version": "1.0.0",
+    "description": "This is a random description subscribe pls A_Aphid YT",
+    "author": "A_Aphid",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+
+}
